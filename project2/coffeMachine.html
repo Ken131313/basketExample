@@ -1,0 +1,108 @@
+<html>
+  <head>
+    <link rel="stylesheet" type="text/css" href="productPage.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+    <style>
+      .carousel-inner > .item > img,
+      .carousel-inner > .item > a > img {
+        width: 10%;
+        margin: auto;
+      }
+      .item {
+        display: none;
+        position: relative;
+        transition:2s ease-in-out left;
+      }
+    </style>
+  </head>
+<body>
+  <nav style="font-size: larger;">
+    <ul>
+      <li><img src ="WETECH.jpg" width="100" height="50"></li>
+      <li><a href="productPage.html">Home</a></li>
+      <li><a href="basket.html"><img src="basket.png" alt="Basket" class="basket-icon"></a></li>
+      <li><a href="aboutus.html">About Us</a></li>
+      <li><a href="customerLogin.html">Sign in</a></li>
+    </ul>
+  </nav>
+    <div class="image-container">
+      <div class="product-container">
+        <img src="coffeMachine.jpg" alt="coffeMachine" width="200" height="200"></a>
+        <form action="addToCart.php" method="POST">
+        <label>Hipresso Super <p></p>Fully Automatic Espresso Coffee Machine<p></p> - 7" HD TFT Touchscreen with Milk Frother<p>£899.99</p>
+          <input type="number" value="1" min="1" max="10" name="quantity" id="quantity-Hipresso Super">
+          <input type="hidden" name="item_name" value="Hipresso Super">
+            <input type="hidden" name="price" value="899.99">
+            <button type="submit" name="add-to-cart" value="Hipresso Super">Add to Basket</button>
+        </label>
+        </form>
+      </div>
+      <div class="product-container">
+        <img src="coffeMachine2.jpg" alt="coffeMachine" width="200" height="200"></a>
+        <form action="addToCart.php" method="POST">
+        <label>L OR Barista Capsule Coffee Machine with Milk Frother<p></p> Double Shot<p></p> 1 or 2 Cups, Full Coffee Menu, Black</p><p>£179.00</p>
+          <input type="number" value="1" min="1" max="10" name="quantity" id="quantity-L OR Barista Capsule Coffee Machine">
+          <input type="hidden" name="item_name" value="L OR Barista Capsule Coffee Machine">
+            <input type="hidden" name="price" value="179.99">
+            <button type="submit" name="add-to-cart" value="L OR Barista Capsule Coffee Machine">Add to Basket</button>
+        </label>
+        </form>
+      </div>
+      <div class="product-container">
+        <img src="coffeMachine3.jpg" alt="coffeMachine" width="200" height="200">
+        <form action="addToCart.php" method="POST">
+        <label>Sage BES875UK The Barista Express Espresso Coffee Machine<p>£550.00</p>
+          <input type="number" value="1" min="1" max="10" name="quantity" id="quantity-Sage BES875UK">
+          <input type="hidden" name="item_name" value="Sage BES875UK">
+            <input type="hidden" name="price" value="550">
+            <button type="submit" name="add-to-cart" value="Sage BES875UK">Add to Basket</button>
+        </label>
+        </form>
+      </div>
+      <div class="product-container">
+        <img src="coffeMachine4.jpg" alt="coffeMachine" width="200" height="200">
+        <form action="addToCart.php" method="POST">
+        <label>Delonghi Eletta Cappuccino Automatic<p></p> Bean to Cup Coffee Machine with Auto Milk <p></p> Black<p>£749.00</p>
+          <input type="number" value="1" min="1" max="10" name="quantity" id="quantity-Delonghi Eletta">
+          <input type="hidden" name="item_name" value="Delonghi Eletta">
+            <input type="hidden" name="price" value="749">
+            <button type="submit" name="add-to-cart" value="Delonghi Eletta">Add to Basket</button>
+        </label>
+        </form>
+      </div>
+    </div>
+</body>
+<footer style="background-color: rgb(151, 148, 148); padding: 20px;">
+  <div class="container">
+    <div class="row">
+      <div class="col-sm-3">
+        <h3>Contact Us</h3>
+          <a href="contactus.html">Contact Us</a>
+      </div>
+      <div class="col-sm-3">
+        <h3>Track My Order</h3>
+        <p><a href="#">Order History</a></p>
+        <p><a href="#">Track My Order</a></p>
+        <p><a href="#">Cancel My Order</a></p>
+      </div>
+      <div class="col-sm-3">
+        <h3>Delivery Options</h3>
+        <p><a href="#">Shipping Information</a></p>
+        <p><a href="#">Free Shipping</a></p>
+      </div>
+      <div class="col-sm-3">
+        <h3>Ways to Pay</h3>
+        <p><a href="#">Credit Cards</a></p>
+      </div>
+    </div>
+    <div class="row">
+      <div class="col-sm-12 text-center">
+        
+        <p>&copy; WETECH</p>
+      </div>
+    </div>
+  </div>
+</footer>
+</html>

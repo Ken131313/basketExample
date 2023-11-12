@@ -1,0 +1,41 @@
+nav {
+    background-color: #696666cb;
+    color: rgba(80, 80, 80, 0.853);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    position: relative;
+  }
+  
+  nav ul {
+    list-style: none;
+    display: flex;
+    margin: 0;
+    padding: 0;
+  }
+  
+  nav li {
+    margin-right: 20px;
+  }
+  
+  nav li:last-child {
+    margin-right: 0;
+  }
+  
+  .basket-icon {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    width: 30px;
+    height: 30px;
+  }
+.text-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 30px;
+  border: 1px solid black;
+  padding: 10px;
+  font-size: x-large;
+}

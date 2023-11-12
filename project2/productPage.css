@@ -1,0 +1,80 @@
+nav {
+  background-color: #060512de;
+  color: hsla(218, 69%, 8%, 0.279);
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 10px;
+  position: relative;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  margin: 0;
+  padding: 0;
+}
+
+nav li {
+  margin-right: 20px;
+}
+
+nav li:last-child {
+  margin-right: 0;
+}
+
+.basket-icon {
+  position: absolute;
+  top: 10px;
+  right: 10px;
+  width: 30px;
+  height: 30px;
+}
+
+.image-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.product-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 30px;
+  border: 1px solid black;
+  padding: 10px;
+}
+
+.product-container img {
+  margin-bottom: 10px;
+}
+
+.product-container label {
+  font-weight: bold;
+}
+.text-container{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 30px;
+  border: 2px solid rgb(28, 9, 233);
+  padding: 30px;
+}
+button.checkout {
+  background-color: #06e6da;
+  border: none;
+  color: #000000;
+  font-size: 18px;
+  font-weight: 600;
+  padding: 16px 24px;
+  border-radius: 8px;
+  text-transform: uppercase;
+  letter-spacing: 0.5px;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+button.checkout:hover {
+  background-color: #ff6a00;
+}
