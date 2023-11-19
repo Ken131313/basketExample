@@ -1,8 +1,8 @@
 <?php
 // Connect to the database
 $servername = "localhost";
-$username = "username";
-$password = "password";
+$username = "root";
+$password = "";
 $dbname = "project2";
 $conn = new mysqli($servername, $username, $password, $dbname);
 if ($conn->connect_error) {

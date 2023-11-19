@@ -4,7 +4,7 @@ $email = $_POST["email"];
 $password = $_POST["password"];
 
 // Connect to the database
-$conn = mysqli_connect("localhost", "username", "password", "project2");
+$conn = mysqli_connect("localhost", "root", "", "project2");
 
 // Prepare the SQL statement for the customer table
 $sql = "SELECT * FROM customerdetail WHERE Email = ? AND Password = ?";
